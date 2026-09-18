@@ -3,6 +3,7 @@ set -e
 # extract new phrases
 xgettext \
     --from-code=UTF-8 \
+    --add-comments=Translators: \
     -o humanize.pot \
     -k'_' \
     -k'N_' \

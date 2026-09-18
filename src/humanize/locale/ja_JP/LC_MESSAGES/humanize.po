@@ -139,6 +139,26 @@ msgctxt "9 (female)"
 msgid "%sth"
 msgstr "%s番目"
 
+#, no-python-format
+msgctxt "is 1 (male)"
+msgid "%sst"
+msgstr "%s番目"
+
+#, no-python-format
+msgctxt "is 1 (female)"
+msgid "%sst"
+msgstr "%s番目"
+
+#, python-format
+msgctxt "11, 12, 13 (male)"
+msgid "%sth"
+msgstr "%s番目"
+
+#, python-format
+msgctxt "11, 12, 13 (female)"
+msgid "%sth"
+msgstr "%s番目"
+
 #: src/humanize/number.py:178
 #, python-format
 msgid "%s thousand"

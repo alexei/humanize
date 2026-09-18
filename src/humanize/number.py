@@ -63,6 +63,22 @@ _ORDINAL_FORMATS = {
         PS_("9 (female)", "%sth"),
     ),
 }
+_ORDINAL_IS_ONE = {
+    # Translators: ordinal for exactly 1 (1st). Other numbers ending in 1
+    # (21st, 101st) use the "1 (male)" entry. May omit %s, e.g. "primul".
+    # xgettext: no-python-format
+    "male": PS_("is 1 (male)", "%sst"),
+    # Translators: ordinal for exactly 1 (1st). Other numbers ending in 1
+    # (21st, 101st) use the "1 (female)" entry. May omit %s, e.g. "prima".
+    # xgettext: no-python-format
+    "female": PS_("is 1 (female)", "%sst"),
+}
+_ORDINAL_TEENS = {
+    # Translators: ordinal for numbers ending in 11, 12 or 13 (11th, 112th).
+    "male": PS_("11, 12, 13 (male)", "%sth"),
+    # Translators: ordinal for numbers ending in 11, 12 or 13 (11th, 112th).
+    "female": PS_("11, 12, 13 (female)", "%sth"),
+}
 _APNUMBER_WORDS = (
     N_("zero"),
     N_("one"),
@@ -136,8 +152,18 @@ def ordinal(value: NumberOrString, gender: str = "male") -> str:
     except (TypeError, ValueError):
         return str(value)
     gender = "male" if gender == "male" else "female"
-    digit = 0 if value % 100 in (11, 12, 13) else value % 10
-    return P_(*_ORDINAL_FORMATS[gender][digit]) % value
+    if value == 1:
+        template = _ORDINAL_IS_ONE[gender]
+    elif value % 100 in (11, 12, 13):
+        template = _ORDINAL_TEENS[gender]
+    else:
+        template = _ORDINAL_FORMATS[gender][value % 10]
+    text = P_(*template)
+    try:
+        return text % value
+    except TypeError:
+        # The translation may not include the number e.g. "1st" is "primul" in Romanian
+        return text
 
 
 def intcomma(value: NumberOrString, ndigits: int | None = None) -> str:

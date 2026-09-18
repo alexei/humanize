@@ -138,6 +138,26 @@ msgctxt "9 (female)"
 msgid "%sth"
 msgstr "%sতম"
 
+#, no-python-format
+msgctxt "is 1 (male)"
+msgid "%sst"
+msgstr "%sতম"
+
+#, no-python-format
+msgctxt "is 1 (female)"
+msgid "%sst"
+msgstr "%sতম"
+
+#, python-format
+msgctxt "11, 12, 13 (male)"
+msgid "%sth"
+msgstr "%sতম"
+
+#, python-format
+msgctxt "11, 12, 13 (female)"
+msgid "%sth"
+msgstr "%sতম"
+
 #: src/humanize/number.py:178
 #, python-format
 msgid "%s thousand"
