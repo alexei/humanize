@@ -20,9 +20,19 @@ with freeze_time("2020-02-02"):
     NOW = dt.datetime.now(tz=dt.timezone.utc)
 
 
-@pytest.mark.parametrize("locale, one", [("de_DE", "eins"), ("fr_FR", "un")])
+@pytest.mark.parametrize(
+    "locale, one",
+    [
+        ("de_DE", "eins"),
+        ("fr_FR", "un"),
+        ("ro", "unu"),
+    ],
+)
 def test_update_translations(
-    tmp_path: Path, monkeypatch: pytest.MonkeyPatch, locale: str, one: str
+    tmp_path: Path,
+    monkeypatch: pytest.MonkeyPatch,
+    locale: str,
+    one: str,
 ) -> None:
     for command in ("bash", "xgettext", "msgmerge", "msgfmt"):
         if shutil.which(command) is None:

@@ -1,0 +1,557 @@
+# Romanian translation for humanize.
+# Copyright (C) 2026 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the humanize package.
+# Alexandru Mărășteanu <hello@alexei.ro>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: humanize\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-18 14:15+0100\n"
+"PO-Revision-Date: 2026-09-18 14:15+0100\n"
+"Last-Translator: Alexandru Mărășteanu <hello@alexei.ro>\n"
+"Language-Team: Romanian\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
+
+#: src/humanize/filesize.py:12
+#, python-format
+msgid "%s kB"
+msgstr "%s kB"
+
+#: src/humanize/filesize.py:13
+#, python-format
+msgid "%s MB"
+msgstr "%s MB"
+
+#: src/humanize/filesize.py:14
+#, python-format
+msgid "%s GB"
+msgstr "%s GB"
+
+#: src/humanize/filesize.py:15
+#, python-format
+msgid "%s TB"
+msgstr "%s TB"
+
+#: src/humanize/filesize.py:16
+#, python-format
+msgid "%s PB"
+msgstr "%s PB"
+
+#: src/humanize/filesize.py:17
+#, python-format
+msgid "%s EB"
+msgstr "%s EB"
+
+#: src/humanize/filesize.py:18
+#, python-format
+msgid "%s ZB"
+msgstr "%s ZB"
+
+#: src/humanize/filesize.py:19
+#, python-format
+msgid "%s YB"
+msgstr "%s YB"
+
+#: src/humanize/filesize.py:20
+#, python-format
+msgid "%s RB"
+msgstr "%s RB"
+
+#: src/humanize/filesize.py:21
+#, python-format
+msgid "%s QB"
+msgstr "%s QB"
+
+#: src/humanize/filesize.py:24
+#, python-format
+msgid "%s KiB"
+msgstr "%s KiB"
+
+#: src/humanize/filesize.py:25
+#, python-format
+msgid "%s MiB"
+msgstr "%s MiB"
+
+#: src/humanize/filesize.py:26
+#, python-format
+msgid "%s GiB"
+msgstr "%s GiB"
+
+#: src/humanize/filesize.py:27
+#, python-format
+msgid "%s TiB"
+msgstr "%s TiB"
+
+#: src/humanize/filesize.py:28
+#, python-format
+msgid "%s PiB"
+msgstr "%s PiB"
+
+#: src/humanize/filesize.py:29
+#, python-format
+msgid "%s EiB"
+msgstr "%s EiB"
+
+#: src/humanize/filesize.py:30
+#, python-format
+msgid "%s ZiB"
+msgstr "%s ZiB"
+
+#: src/humanize/filesize.py:31
+#, python-format
+msgid "%s YiB"
+msgstr "%s YiB"
+
+#: src/humanize/filesize.py:32
+#, python-format
+msgid "%s RiB"
+msgstr "%s RiB"
+
+#: src/humanize/filesize.py:33
+#, python-format
+msgid "%s QiB"
+msgstr "%s QiB"
+
+#: src/humanize/filesize.py:95
+#, python-format
+msgid "%d Byte"
+msgstr "%d octet"
+
+#: src/humanize/filesize.py:98
+#, python-format
+msgid "%d Bytes"
+msgstr "%d octeți"
+
+#: src/humanize/number.py:42
+#, python-format
+msgctxt "0 (male)"
+msgid "%sth"
+msgstr "al %s-lea"
+
+#: src/humanize/number.py:43
+#, python-format
+msgctxt "1 (male)"
+msgid "%sst"
+msgstr "al %s-lea"
+
+#: src/humanize/number.py:44
+#, python-format
+msgctxt "2 (male)"
+msgid "%snd"
+msgstr "al %s-lea"
+
+#: src/humanize/number.py:45
+#, python-format
+msgctxt "3 (male)"
+msgid "%srd"
+msgstr "al %s-lea"
+
+#: src/humanize/number.py:46
+#, python-format
+msgctxt "4 (male)"
+msgid "%sth"
+msgstr "al %s-lea"
+
+#: src/humanize/number.py:47
+#, python-format
+msgctxt "5 (male)"
+msgid "%sth"
+msgstr "al %s-lea"
+
+#: src/humanize/number.py:48
+#, python-format
+msgctxt "6 (male)"
+msgid "%sth"
+msgstr "al %s-lea"
+
+#: src/humanize/number.py:49
+#, python-format
+msgctxt "7 (male)"
+msgid "%sth"
+msgstr "al %s-lea"
+
+#: src/humanize/number.py:50
+#, python-format
+msgctxt "8 (male)"
+msgid "%sth"
+msgstr "al %s-lea"
+
+#: src/humanize/number.py:51
+#, python-format
+msgctxt "9 (male)"
+msgid "%sth"
+msgstr "al %s-lea"
+
+#: src/humanize/number.py:54
+#, python-format
+msgctxt "0 (female)"
+msgid "%sth"
+msgstr "a %s-a"
+
+#: src/humanize/number.py:55
+#, python-format
+msgctxt "1 (female)"
+msgid "%sst"
+msgstr "a %s-a"
+
+#: src/humanize/number.py:56
+#, python-format
+msgctxt "2 (female)"
+msgid "%snd"
+msgstr "a %s-a"
+
+#: src/humanize/number.py:57
+#, python-format
+msgctxt "3 (female)"
+msgid "%srd"
+msgstr "a %s-a"
+
+#: src/humanize/number.py:58
+#, python-format
+msgctxt "4 (female)"
+msgid "%sth"
+msgstr "a %s-a"
+
+#: src/humanize/number.py:59
+#, python-format
+msgctxt "5 (female)"
+msgid "%sth"
+msgstr "a %s-a"
+
+#: src/humanize/number.py:60
+#, python-format
+msgctxt "6 (female)"
+msgid "%sth"
+msgstr "a %s-a"
+
+#: src/humanize/number.py:61
+#, python-format
+msgctxt "7 (female)"
+msgid "%sth"
+msgstr "a %s-a"
+
+#: src/humanize/number.py:62
+#, python-format
+msgctxt "8 (female)"
+msgid "%sth"
+msgstr "a %s-a"
+
+#: src/humanize/number.py:63
+#, python-format
+msgctxt "9 (female)"
+msgid "%sth"
+msgstr "a %s-a"
+
+#. Translators: ordinal for exactly 1 (1st). Other numbers ending in 1
+#. (21st, 101st) use the "1 (male)" entry.
+#: src/humanize/number.py:69
+#, no-python-format
+msgctxt "is 1 (male)"
+msgid "%sst"
+msgstr "primul"
+
+#. Translators: ordinal for exactly 1 (1st). Other numbers ending in 1
+#. (21st, 101st) use the "1 (female)" entry.
+#: src/humanize/number.py:72
+#, no-python-format
+msgctxt "is 1 (female)"
+msgid "%sst"
+msgstr "prima"
+
+#. Translators: ordinal for numbers ending in 11, 12 or 13 (11th, 112th).
+#: src/humanize/number.py:76
+#, python-format
+msgctxt "11, 12, 13 (male)"
+msgid "%sth"
+msgstr "al %s-lea"
+
+#. Translators: ordinal for numbers ending in 11, 12 or 13 (11th, 112th).
+#: src/humanize/number.py:78
+#, python-format
+msgctxt "11, 12, 13 (female)"
+msgid "%sth"
+msgstr "a %s-a"
+
+#: src/humanize/number.py:81
+msgid "zero"
+msgstr "zero"
+
+#: src/humanize/number.py:82
+msgid "one"
+msgstr "unu"
+
+#: src/humanize/number.py:83
+msgid "two"
+msgstr "doi"
+
+#: src/humanize/number.py:84
+msgid "three"
+msgstr "trei"
+
+#: src/humanize/number.py:85
+msgid "four"
+msgstr "patru"
+
+#: src/humanize/number.py:86
+msgid "five"
+msgstr "cinci"
+
+#: src/humanize/number.py:87
+msgid "six"
+msgstr "șase"
+
+#: src/humanize/number.py:88
+msgid "seven"
+msgstr "șapte"
+
+#: src/humanize/number.py:89
+msgid "eight"
+msgstr "opt"
+
+#: src/humanize/number.py:90
+msgid "nine"
+msgstr "nouă"
+
+#: src/humanize/number.py:227
+#, python-format
+msgid "%s thousand"
+msgid_plural "%s thousand"
+msgstr[0] "%s mie"
+msgstr[1] "%s mii"
+msgstr[2] "%s de mii"
+
+#: src/humanize/number.py:228
+#, python-format
+msgid "%s million"
+msgid_plural "%s million"
+msgstr[0] "%s milion"
+msgstr[1] "%s milioane"
+msgstr[2] "%s de milioane"
+
+#: src/humanize/number.py:229
+#, python-format
+msgid "%s billion"
+msgid_plural "%s billion"
+msgstr[0] "%s miliard"
+msgstr[1] "%s miliarde"
+msgstr[2] "%s de miliarde"
+
+#: src/humanize/number.py:230
+#, python-format
+msgid "%s trillion"
+msgid_plural "%s trillion"
+msgstr[0] "%s bilion"
+msgstr[1] "%s bilioane"
+msgstr[2] "%s de bilioane"
+
+#: src/humanize/number.py:231
+#, python-format
+msgid "%s quadrillion"
+msgid_plural "%s quadrillion"
+msgstr[0] "%s biliard"
+msgstr[1] "%s biliarde"
+msgstr[2] "%s de biliarde"
+
+#: src/humanize/number.py:232
+#, python-format
+msgid "%s quintillion"
+msgid_plural "%s quintillion"
+msgstr[0] "%s trilion"
+msgstr[1] "%s trilioane"
+msgstr[2] "%s de trilioane"
+
+#: src/humanize/number.py:233
+#, python-format
+msgid "%s sextillion"
+msgid_plural "%s sextillion"
+msgstr[0] "%s triliard"
+msgstr[1] "%s triliarde"
+msgstr[2] "%s de triliarde"
+
+#: src/humanize/number.py:234
+#, python-format
+msgid "%s septillion"
+msgid_plural "%s septillion"
+msgstr[0] "%s cvadrilion"
+msgstr[1] "%s cvadrilioane"
+msgstr[2] "%s de cvadrilioane"
+
+#: src/humanize/number.py:235
+#, python-format
+msgid "%s octillion"
+msgid_plural "%s octillion"
+msgstr[0] "%s cvadriliard"
+msgstr[1] "%s cvadriliarde"
+msgstr[2] "%s de cvadriliarde"
+
+#: src/humanize/number.py:236
+#, python-format
+msgid "%s nonillion"
+msgid_plural "%s nonillion"
+msgstr[0] "%s cvintilion"
+msgstr[1] "%s cvintilioane"
+msgstr[2] "%s de cvintilioane"
+
+#: src/humanize/number.py:237
+#, python-format
+msgid "%s decillion"
+msgid_plural "%s decillion"
+msgstr[0] "%s cvintiliard"
+msgstr[1] "%s cvintiliarde"
+msgstr[2] "%s de cvintiliarde"
+
+#: src/humanize/number.py:238
+#, python-format
+msgid "%s googol"
+msgid_plural "%s googol"
+msgstr[0] "%s googol"
+msgstr[1] "%s googoli"
+msgstr[2] "%s de googoli"
+
+#: src/humanize/time.py:179
+#, python-format
+msgid "%d microsecond"
+msgid_plural "%d microseconds"
+msgstr[0] "%d microsecundă"
+msgstr[1] "%d microsecunde"
+msgstr[2] "%d de microsecunde"
+
+#: src/humanize/time.py:188
+#, python-format
+msgid "%d millisecond"
+msgid_plural "%d milliseconds"
+msgstr[0] "%d milisecundă"
+msgstr[1] "%d milisecunde"
+msgstr[2] "%d de milisecunde"
+
+#: src/humanize/time.py:191 src/humanize/time.py:308
+msgid "a moment"
+msgstr "un moment"
+
+#: src/humanize/time.py:194
+msgid "a second"
+msgstr "o secundă"
+
+#: src/humanize/time.py:197
+#, python-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d secundă"
+msgstr[1] "%d secunde"
+msgstr[2] "%d de secunde"
+
+#: src/humanize/time.py:202
+msgid "a minute"
+msgstr "un minut"
+
+#: src/humanize/time.py:205 src/humanize/time.py:212
+msgid "an hour"
+msgstr "o oră"
+
+#: src/humanize/time.py:207
+#, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d minut"
+msgstr[1] "%d minute"
+msgstr[2] "%d de minute"
+
+#: src/humanize/time.py:215 src/humanize/time.py:221
+msgid "a day"
+msgstr "o zi"
+
+#: src/humanize/time.py:217
+#, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d oră"
+msgstr[1] "%d ore"
+msgstr[2] "%d de ore"
+
+#: src/humanize/time.py:224 src/humanize/time.py:227
+#, python-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d zi"
+msgstr[1] "%d zile"
+msgstr[2] "%d de zile"
+
+#: src/humanize/time.py:230
+msgid "a month"
+msgstr "o lună"
+
+#: src/humanize/time.py:233 src/humanize/time.py:239
+msgid "a year"
+msgstr "un an"
+
+#: src/humanize/time.py:235
+#, python-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%d lună"
+msgstr[1] "%d luni"
+msgstr[2] "%d de luni"
+
+#: src/humanize/time.py:242 src/humanize/time.py:257
+#, python-format
+msgid "1 year, %d day"
+msgid_plural "1 year, %d days"
+msgstr[0] "un an și %d zi"
+msgstr[1] "un an și %d zile"
+msgstr[2] "un an și %d de zile"
+
+#: src/humanize/time.py:246
+msgid "1 year, 1 month"
+msgstr "un an și o lună"
+
+#: src/humanize/time.py:250 src/humanize/time.py:260
+#, python-format
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] "%d an"
+msgstr[1] "%d ani"
+msgstr[2] "%d de ani"
+
+#: src/humanize/time.py:253
+#, python-format
+msgid "1 year, %d month"
+msgid_plural "1 year, %d months"
+msgstr[0] "un an și %d lună"
+msgstr[1] "un an și %d luni"
+msgstr[2] "un an și %d de luni"
+
+#: src/humanize/time.py:305
+#, python-format
+msgid "%s from now"
+msgstr "peste %s"
+
+#: src/humanize/time.py:305
+#, python-format
+msgid "%s ago"
+msgstr "acum %s"
+
+#: src/humanize/time.py:309
+msgid "now"
+msgstr "acum"
+
+#: src/humanize/time.py:355
+msgid "today"
+msgstr "astăzi"
+
+#: src/humanize/time.py:358
+msgid "tomorrow"
+msgstr "mâine"
+
+#: src/humanize/time.py:361
+msgid "yesterday"
+msgstr "ieri"
+
+#: src/humanize/time.py:683
+#, python-format
+msgid "%s and %s"
+msgstr "%s și %s"
