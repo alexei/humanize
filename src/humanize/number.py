@@ -40,6 +40,8 @@ _SUPERSCRIPT_TRANS = str.maketrans(_SUPERSCRIPT_MAP)
 _ORDINAL_FORMATS = {
     "male": (
         PS_("0 (male)", "%sth"),
+        # Translators: ordinal for numbers ending in 1 (21st, 101st). 1 and 11
+        # have their own entries: "is 1 (male)" and "11, 12, 13 (male)".
         PS_("1 (male)", "%sst"),
         PS_("2 (male)", "%snd"),
         PS_("3 (male)", "%srd"),
@@ -52,6 +54,8 @@ _ORDINAL_FORMATS = {
     ),
     "female": (
         PS_("0 (female)", "%sth"),
+        # Translators: ordinal for numbers ending in 1 (21st, 101st). 1 and 11
+        # have their own entries: "is 1 (female)" and "11, 12, 13 (female)".
         PS_("1 (female)", "%sst"),
         PS_("2 (female)", "%snd"),
         PS_("3 (female)", "%srd"),
